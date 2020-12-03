@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Question & Answer </title>
+  <link rel="stylesheet" href="src/css/quickstar.css">
+  <link rel="shortcut icon" href="src/images/stackLogo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+  <header class="header">
+    <a href="#home" class="stackCode">
+      <svg xmlns="http://www.w3.org/2000/svg" width="150" viewBox="0 0 670 236">
+       <path class="path" stroke="#4CADC1" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+        stroke-miterlimit="10" stroke-dasharray="300" stroke-dashoffset="300" fill="none"
+        d="M343.6 75.9v20.3l23.1 21.8-23.1 21.8v20.3l44.6-42.1zM326.4 139.8l-23.1-21.8 23.1-21.8v-20.3l-44.6 42.1 44.6 42.1z" />
+       <path class="path" stroke="#4CADC1" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+        stroke-miterlimit="10" stroke-dasharray="500" stroke-dashoffset="500" fill="none"
+        d="M335 38.9c-43.7 0-79.1 35.4-79.1 79.1s35.4 79.1 79.1 79.1 79.1-35.4 79.1-79.1-35.4-79.1-79.1-79.1zM335 182.9c-35.8 0-64.9-29.1-64.9-64.9s29.1-64.9 64.9-64.9 64.9 29.1 64.9 64.9-29.1 64.9-64.9 64.9z" />
+      </svg>
+     </a>
+     <div class="navBars">
+       <i class="fas fa-bars"></i>
+     </div>
+    <nav>
+      <a href="#questions"> Questions <i class="fas fa-question"></i> </a>  
+      <a href="#footer"> Follow <i class="fas fa-plus"></i> </a>  
+    </nav> 
+  </header> 
+
+<!-- Write html code -->  
+<section id="questions">
+  <div class="question-container">
+    <h4 id="question">How would you like premium to help?</h4>
+    <small id="small">select and submit.</small>
+    <ul id="ul">
+      <li>
+        <input type="radio" name="answer" class="answer" id="a">
+        <label id="a_text" for="a">Question A?</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" class="answer" id="b">
+        <label id="b_text" for="b">Question B?</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" class="answer" id="c">
+        <label id="c_text" for="c">Question C?</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" class="answer" id="d">
+        <label id="d_text" for="d">Question D?</label>
+      </li>
+    </ul>
+    <button id="getAns"><span>Answer</span> <i class="fas fa-arrow-right"></i></button>
+  </div>
+</section>
+<!-- Write html code -->
+
+<footer id="footer" class="footer">
+  <h1>Follow | Connect <i class="fas fa-plus" aria-hidden="true"></i></h1>
+  <div class="footer_social">
+    <a target="_blank" href="https://github.com/stacksagar"><i class="fab fa-github"></i></a> 
+    <a target="_blank" href="https://twitter.com/stacksagar"><i class="fab fa-twitter"></i></a>
+    <a target="_blank" href="https://linkedin.com/in/stacksagar/"><i class="fab fa-linkedin"></i></a>
+    <a target="_blank" href="https://freecodecamp.org/stacksagar"><i class="fab fa-free-code-camp"></i></a>
+    <a target="_blank" href="https://facebook.com/stacksagar"><i class="fab fa-facebook"></i></a>
+    <a target="_blank" href="https://discord.gg/KkqhEwdsz3"><i class="fab fa-discord"></i></a>
+    <a target="_blank" href="mailto:contact.jrsagar@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a target="_blank" href="https://wa.me/+8801797177287"><i class="fab fa-whatsapp"></i></a>
+    <a target="_blank" href="skype:live:.cid.33c8b81772488296"><i class="fab fa-skype"></i></a>
+    <a target="_blank" href="https://m.me/stacksagar"><i class="fab fa-facebook-messenger"></i></a>
+  </div>
+</footer> 
+
+  <div class="fixedName questions-answer"></div>
+  <script src="src/js/all.min.js"></script>
+  <script src="src/js/code.js"></script>
+  <script src="src/js/autoWrite.min.js"></script>
+  <script src="programming.js"></script>
+</body>
+</html>
